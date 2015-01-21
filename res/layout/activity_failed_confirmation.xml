@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gotchaninja"
+    tools:context=".FailedConfirmation" >
+
+    <TextView
+        android:id="@+id/tLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/numbertriesText"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tLeft"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/tLeft"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/failedText"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tLeft"
+        android:layout_alignRight="@+id/tLeft"
+        android:layout_below="@+id/tLeft"
+        android:layout_marginTop="33dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_centerHorizontal="true"
+        android:onClick="sendMessage"
+        android:text="Go!"
+        android:textColor="#000000" />
+
+</RelativeLayout>

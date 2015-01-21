@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gotcha</string>
+    <string name="hello_world">Hello, </string>
+    <string name="menu_settings">Settings</string>
+    <string name="name">Hey Neo!</string>
+    <string name="targetText">Your current target is</string>
+    <string name="targetName">The White Rabbit</string>
+    <string name="targetselectText">So that we know you\'re not trying to cheat, please let us know who your next target is.</string>
+    <string name="title_activity_failed_confirmation">FailedConfirmation</string>
+    <string name="failedText">Oops! Looks like you entered your new target wrong. Please try again.</string>
+    <string name="numbertriesText">You have 3 more tries, don\'t mess up!</string>
+    <string name="title_activity_out_page">OutPage</string>
+    <string name="outText">Sorry, you have been tagged out. If you believe this to be an error, please send a complaint email to the headmonitors with the subject &quot;your name&quot;_GotchaConflict</string>
+    <string name="title_activity_select_name">SelectName</string>
+ 
+
+</resources>
